@@ -2,62 +2,145 @@
 title: "About Me"
 ---
 
-::: {.hero-banner .text-center}
+::: {.hero-banner}
 
-<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+<img src="images/profile.jpg" alt="Nathan Irizarry" class="profile-image" width="160">
 
-<h1>Your Name</h1>
+<h1>Nathan Irizarry</h1>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<div class="hero-links">
+<a href="https://linkedin.com/in/nathan-irizarry" class="btn btn-outline-primary" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/nathan-irizarry" class="btn btn-outline-primary" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
+</div>
 
 :::
 
 ## Background
 
-Write a compelling narrative about your background, education, and what drives your passion for product management. This is your chance to tell your story and connect with potential employers or collaborators.
+Driven by a unique blend of strategic business thinking and technical computer science principles, I thrive at the intersection of *human-centric design* and *data-backed decision-making*. My passion for product management stems from a desire to solve complex user problems by bridging the gap between high-level strategy and technical execution. Whether I am optimizing direct-to-consumer funnels or building responsive web interfaces, I am committed to creating products that deliver measurable value and seamless user experiences.
 
-### Education
+---
 
-- **Degree Name**, University Name (Year)
-- **Relevant Coursework**: List key courses related to product management, analytics, or business
-- **Academic Achievements**: Honor societies, relevant projects, or awards
+## Education
 
-### Experience
+::: {.education-card}
 
-#### Job/Internship Title - Company Name
-*Dates*
+**BS in Strategic Management**
+*Emphasis in AI Product Management, Minor in Computer Science*
 
-- Key accomplishment or responsibility
-- Another achievement with quantifiable results
-- Skills or technologies used
+Brigham Young University - Marriott School of Business | Jan 2024 - Present
 
-#### Another Position - Company Name
-*Dates*
+**Relevant Coursework:**
 
-- What you contributed to the organization
-- Projects you worked on
-- Impact you made
+- Product Management (PRD, MVP, Agile)
+- Database Design
+- AI Tools
+- Web Development
 
-### Skills & Interests
+**Academic Achievements:**
 
-**Technical Skills**
-- Programming languages (Python, R, SQL)
-- Analytics tools (Tableau, Power BI, Google Analytics)
-- Product management tools (Jira, Confluence, Figma)
+- BYU Marriott School Dean's List (Winter 2025)
+- Overall GPA: **3.8/4.0**
+- Ambassador for the Product Management Association
 
-**Soft Skills**
-- Communication and presentation
-- Cross-functional collaboration
-- Strategic thinking and problem-solving
+:::
 
-**Interests**
-Share what you're passionate about outside of work - this helps humanize your professional brand and can be great conversation starters.
+---
 
-### What's Next
+## Experience
 
-Describe your career goals and what type of opportunities you're seeking. This helps visitors understand how they might work with you or whether you'd be a good fit for their organization.
+::: {.experience-card}
+
+### Associate Product Manager
+
+**LeaderFactor** | *Jan 2026 - Present*
+
+- Led moderated customer research and synthesized insights into actionable recommendations to improve course flows and product dashboards
+- Optimized direct-to-consumer funnels through rapid A/B experiments, focusing on landing pages, messaging, and pricing strategies
+- Utilized usage and survey data to validate a 15-skill model and drive improvements in user retention
+
+:::
+
+::: {.experience-card}
+
+### Product Support Specialist
+
+**Squeeze** | *Jul 2025 - Oct 2025*
+
+- Communicated product value to diverse customer segments, resulting in a **15% increase** in conversion rates
+- Collaborated with cross-functional teams to refine call scripts and improve lead-to-appointment conversion metrics
+- Consistently exceeded daily KPIs for call volume and customer satisfaction scores in a fast-paced environment
+
+:::
+
+---
+
+## Skills & Interests
+
+::: {.skills-grid}
+
+::: {.skill-category}
+
+### Technical Skills
+
+**Programming Languages:**
+
+- Python, R, SQL
+- HTML/CSS
+- React, JavaScript
+- VBA
+
+**Analytics & Tools:**
+
+- Tableau
+- Excel Solver
+- Gemini CLI
+- Database Design
+
+**Product Frameworks:**
+
+- PRD Development
+- MVP Testing
+- Agile Methodologies
+- User Feedback Loops
+
+:::
+
+::: {.skill-category}
+
+### Soft Skills
+
+**Strategic Leadership:**
+Directed outreach campaigns resulting in a **40% increase** in volunteer participation.
+
+**Bilingual Communication:**
+Delivered over 1,000 lessons and resolved complex challenges in both *English* and *Spanish*.
+
+**Collaborative Problem-Solving:**
+Experienced in facilitating leadership councils and managing cross-functional projects from concept to deployment.
+
+:::
+
+:::
+
+::: {.interests-section}
+
+### Interests
+
+When I'm not analyzing product data, I enjoy playing acoustic guitar, specifically soft rock and acoustic pop. I also have a keen interest in analyzing the effectiveness of Superbowl advertisements and have been an avid pick-up volleyball player for over **12 years**.
+
+:::
+
+---
+
+## What's Next
+
+My career goal is to transition my background in Strategy and Product Management into a full-time role. I am seeking opportunities where I can lead the intersection of **emerging technology** and **user-centric design**, leveraging my experience in A/B testing, customer research, and full-stack development to drive product growth.
+
+With a minor in Computer Science and proficiency in tools like Python, SQL, and React, I aim to bridge the gap between technical engineering teams and business stakeholders to scale user acquisition and retention.
+
+> *I am particularly interested in joining a forward-thinking, Agile-driven team where I can apply my skills in AI-driven design and data-backed decision-making to build intelligent products that solve meaningful global problems.*

@@ -15,22 +15,20 @@ The primary purpose of this app is to:
 
 ## Live Product Demo
 
-<div class="d-flex justify-content-center gap-3 my-4">
-  <!-- Open App button -->
-  <a class="btn btn-primary d-inline-flex align-items-center"
+<div class="demo-buttons">
+  <a class="btn btn-primary"
      href="https://tetris-game-egc6.vercel.app/"
      target="_blank" rel="noopener"
      aria-label="Open live app">
-    <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
+    <i class="fa-solid fa-window-restore" aria-hidden="true"></i>
     Open App in New Tab
   </a>
 
-  <!-- GitHub Source button -->
-  <a class="btn btn-outline-dark d-inline-flex align-items-center"
+  <a class="btn btn-outline-dark"
      href="https://github.com/your-user/your-repo"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
-    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+    <i class="fa-brands fa-github" aria-hidden="true"></i>
     View source on GitHub
   </a>
 </div>

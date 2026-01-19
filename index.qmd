@@ -1,28 +1,58 @@
 ---
-title: "Welcome to My Product Management Portfolio"
+title: ""
+pagetitle: "Nathan Irizarry | Portfolio"
 ---
 
-::: {.hero-banner .text-center}
+::: {.hero-section}
 
-<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+::: {.hero-content}
 
-<h1>Your Name</h1>
+<div class="hero-name">Nathan Irizarry</div>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<span class="hero-subtitle">Product Manager | AI Strategist | Full-Stack Builder</span>
+
+I live by this personal philosophy: Go find the things in life that present a unique contribution to the world, a contribution that only you, and your abilities, can achieve. Then do them. I strive to make my portfolio of talents change that philosophy into a reality.
+
+<div class="hero-links">
+<a href="https://linkedin.com/in/nathan-irizarry" class="btn btn-outline-primary" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/nathan-irizarry" class="btn btn-outline-primary" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
+</div>
 
 :::
 
-## Featured Projects
+::: {.hero-image}
+<img src="images/profile.jpg" alt="Nathan Irizarry" class="profile-photo">
+:::
 
-::: {.g-col-12 .g-col-md-6 .card}
+:::
 
+::: {.project-filters}
+<button class="filter-btn active">All</button>
+<button class="filter-btn">Product Management</button>
+<button class="filter-btn">Web Development</button>
+<button class="filter-btn">Data Analytics</button>
+<button class="filter-btn">Strategy</button>
+:::
+
+::: {.projects-grid}
+
+::: {.project-card}
 ### [Name of my first app](projects/project-1.qmd)
-A one sentence description of my first application which is deployed to vercel. 
-
+A one sentence description of my first application which is deployed to vercel.
 :::
 
+::: {.project-card}
+### [Business Case Presentation](projects/project-2.qmd)
+Strategic business analysis and presentation showcasing data-driven decision making.
+:::
+
+::: {.project-card}
+### [Project 3](projects/project-3.qmd)
+Description of project three highlighting key skills and outcomes.
+:::
+
+:::
