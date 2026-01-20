@@ -1,179 +1,112 @@
 ---
-title: "Business Case Presentation"
-description: "Pitch deck and strategic business case for new product development"
-date: "2024-10-01"
-image: ../images/project2-preview.jpg
-categories: [Business Strategy, Pitch Deck, Product Development]
+title: "FestaCatering"
+date: "2024-09-15"
+categories: [GitHub, Vercel, Claude Code]
 ---
 
-## Assignment Overview
+## Overview
 
-This project focused on developing a comprehensive business case and pitch presentation for a new product opportunity. The assignment required identifying a market need, analyzing the opportunity, and presenting a compelling case for why the product should be built and funded.
+This project involved using Claude Code to write the code to needed to deveop an app that ...
 
-## Executive Summary
+The primary purpose of this app is to:
 
-**Product Concept**: [Brief description of your proposed product/service]
+- ....
+- ....
 
-**Market Opportunity**: [Size and growth potential of target market]
+## Live Product Demo
 
-**Investment Required**: [Estimated funding needed]
+<div class="demo-buttons">
+  <a class="btn btn-primary"
+     href="https://festa-catering.vercel.app/"
+     target="_blank" rel="noopener"
+     aria-label="Open live app">
+    <i class="fa-solid fa-window-restore" aria-hidden="true"></i>
+    Open App in New Tab
+  </a>
 
-**Expected Return**: [Projected revenue and profitability timeline]
+  <a class="btn btn-outline-dark"
+     href="https://github.com/nathan-irizarry/FestaCatering"
+     target="_blank" rel="noopener"
+     aria-label="Open GitHub source">
+    <i class="fa-brands fa-github" aria-hidden="true"></i>
+    View source on GitHub
+  </a>
+</div>
 
-**Recommendation**: [Clear go/no-go recommendation with supporting rationale]
+<iframe src="https://festa-catering.vercel.app/"
+        style="width:100%; height:900px; border:none;"
+        allowfullscreen>
+</iframe>
 
-## Problem Statement
+## Technical Details
 
-### Market Problem
-- **Issue Identification**: What specific problem does your product solve?
-- **Target Audience**: Who experiences this problem most acutely?
-- **Current Solutions**: How are people solving this problem today?
-- **Gap Analysis**: What's missing from existing solutions?
+Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
 
-### Quantifying the Problem
-- **Market Size**: How many people/organizations face this issue?
-- **Economic Impact**: What does this problem cost users currently?
-- **Urgency**: Why is now the right time to solve this problem?
-- **Evidence**: What data supports the existence and scale of this problem?
+Deployment: GitHub Pages + Vercel
 
-## Market Analysis
+Tools Used:
+-   Claude Code
 
-### Industry Overview
-- **Market Size**: Total Addressable Market (TAM), Serviceable Addressable Market (SAM)
-- **Growth Trends**: Historical growth rates and future projections
-- **Key Drivers**: What factors are driving market growth?
-- **Market Maturity**: Where is this market in its lifecycle?
+## Product Requirements Document
 
-### Competitive Landscape
-- **Direct Competitors**: Who offers similar solutions?
-- **Indirect Competitors**: What alternative approaches exist?
-- **Competitive Advantages**: How will you differentiate?
-- **Market Positioning**: Where will you fit in the competitive landscape?
+Product Requirements Document (PRD): FestaCatering
+Festa Catering
+Nathan Irizarry
 
-### Customer Analysis
-- **Target Segments**: Primary and secondary customer groups
-- **User Personas**: Detailed profiles of ideal customers
-- **Buying Behavior**: How do customers make purchase decisions?
-- **Price Sensitivity**: What are customers willing to pay?
+January, 2026
+Overview:
+Festa Catering Service brings authentic, New-York-style pizza experiences to events using Festa’s portable pizza ovens. The service allows customers to host events—such as weddings, corporate gatherings, or private parties—with on-site, fresh baked pizza in minutes.
 
-## Solution Overview
+Goal: Expand Festa’s brand beyond oven sales by creating a high-margin, experience-based catering service that demonstrates the ovens’ quality while generating new revenue streams.
+Problem Statement
+Event hosts struggle to find unique, high-quality, and low cost catering options that are both entertaining and delicious. Traditional catering can feel impersonal or generic, and guests rarely get to see their food being prepared.
 
-### Product Vision
-- **Core Value Proposition**: What unique value do you provide?
-- **Key Features**: What are the essential product capabilities?
-- **User Experience**: How will customers interact with your product?
-- **Differentiation**: What makes your solution superior?
+Opportunity: Festa’s portable pizza ovens can be used as the centerpiece of an interactive food experience—fresh pizza baked on-site, customizable for each guest.
+Objectives and Success Metrics
+1. Launch pilot program in 3 cities within 6 months
+2. Achieve average customer satisfaction rating ≥ 4.8/5
+3. Convert ≥10% of event attendees into oven inquiries
+4. Maintain ≥40% gross profit margin per event
+Target Audience
+Primary: Event planners, couples, and companies hosting private events
+Secondary: Existing Festa oven owners and local food entrepreneurs
+Product Description
+Service Model:
+- Option 1: Festa-operated catering (staffed and managed by Festa teams)
+- Option 2: Partner-operated catering (franchise-style model for local partners using Festa ovens)
 
-### Product Strategy
-- **Development Approach**: Build vs. buy vs. partner decisions
-- **Technology Stack**: What technical foundation will you use?
-- **Scalability**: How will the product grow with demand?
-- **Innovation**: What makes this solution innovative?
+Core Features:
+1. Mobile setup
+2. Interactive pizza experience
+3. Add-on packages (salads, desserts, themes)
+4. Branded Festa materials
+User Flow
+1. Customer Inquiry → Online booking form
+2. Menu Selection → Choose package
+3. Payment & Confirmation → Deposit online
+4. Event Day → Festa team setup and service
+5. Experience → Live pizza cooking
+6. Follow-Up → Thank-you email + upsell
+Technical & Operational Requirements
+Equipment: Festa ovens, propane/wood, prep tables, tents
+Staffing: 3+ team members per event
+Ordering System: Integrated booking portal
+Regulations: Food handling permits and insurance
+Risks and Assumptions
+Risks:
+- Weather constraints
+- High upfront staffing costs
+- Food regulation differences
 
-## Business Model
-
-### Revenue Model
-- **Pricing Strategy**: How will you price your product?
-- **Revenue Streams**: What are your sources of income?
-- **Customer Acquisition**: How will you attract customers?
-- **Unit Economics**: What are your cost and revenue per customer?
-
-### Financial Projections
-- **Revenue Forecast**: 3-5 year revenue projections
-- **Cost Structure**: Development, operational, and marketing costs
-- **Profitability Timeline**: When will you reach break-even?
-- **Investment Requirements**: Funding needed for different milestones
-
-### Go-to-Market Strategy
-- **Launch Strategy**: How will you introduce the product?
-- **Marketing Channels**: How will you reach customers?
-- **Sales Strategy**: Direct, partner, or hybrid approach?
-- **Customer Success**: How will you ensure customer satisfaction?
-
-## Implementation Plan
-
-### Development Roadmap
-- **Phase 1**: MVP development and initial testing
-- **Phase 2**: Full product launch and market entry  
-- **Phase 3**: Scale and expansion opportunities
-- **Milestones**: Key deliverables and timeline
-
-### Resource Requirements
-- **Team Structure**: What roles and skills are needed?
-- **Technology Infrastructure**: What systems and tools are required?
-- **Capital Requirements**: Funding needs by phase
-- **Strategic Partnerships**: What alliances will accelerate success?
-
-### Risk Analysis
-- **Market Risks**: What could change in the market?
-- **Technical Risks**: What development challenges might arise?
-- **Competitive Risks**: How might competitors respond?
-- **Mitigation Strategies**: How will you address each risk?
-
-## Success Metrics
-
-### Key Performance Indicators
-- **Customer Metrics**: Acquisition, retention, satisfaction
-- **Business Metrics**: Revenue, profitability, market share
-- **Product Metrics**: Usage, engagement, feature adoption
-- **Operational Metrics**: Efficiency, quality, scalability
-
-### Success Criteria
-- **Short-term (6 months)**: [Specific measurable goals]
-- **Medium-term (1-2 years)**: [Growth and market position targets]
-- **Long-term (3-5 years)**: [Vision achievement and expansion goals]
-
-## Investment Recommendation
-
-### Case for Investment
-1. **Market Opportunity**: Large, growing market with clear need
-2. **Competitive Advantage**: Defensible differentiation and positioning
-3. **Team Capability**: Right skills and experience to execute
-4. **Financial Returns**: Attractive risk-adjusted return potential
-5. **Strategic Fit**: Aligns with organizational goals and capabilities
-
-### Expected Outcomes
-- **Revenue Impact**: [Projected revenue contribution]
-- **Market Position**: [Expected market share and positioning]
-- **Strategic Value**: [Broader organizational benefits]
-- **Growth Platform**: [Future expansion opportunities]
-
-## Next Steps
-
-### Immediate Actions (30 days)
-- [ ] Secure initial funding/approval
-- [ ] Finalize team structure and hiring
-- [ ] Complete technical feasibility analysis
-- [ ] Develop detailed project plan
-
-### Short-term Milestones (90 days)
-- [ ] Complete market validation research
-- [ ] Build MVP and conduct user testing
-- [ ] Establish key partnerships
-- [ ] Refine go-to-market strategy
-
-### Long-term Goals (1 year)
-- [ ] Launch product to target market
-- [ ] Achieve customer acquisition targets
-- [ ] Demonstrate product-market fit
-- [ ] Plan expansion opportunities
-
-## Appendices
-
-### Supporting Data
-- Market research reports and analysis
-- Customer interview findings
-- Competitive analysis details
-- Financial model assumptions
-
-### Presentation Materials
-- **Slide Deck**: [Link to presentation slides]
-- **Executive Summary**: [One-page business case summary]  
-- **Financial Model**: [Detailed financial projections]
-- **Supporting Research**: [Market data and analysis]
-
----
-
-**Skills Demonstrated:** Business Strategy, Market Analysis, Financial Modeling, Presentation Design, Strategic Planning
-
-**Tools Used:** PowerPoint/Keynote, Excel/Google Sheets, Market Research Databases, Survey Tools
+Assumptions:
+- Ovens are portable and safe
+- Customers value experiential catering
+Launch Plan
+Phase 1 – Pilot: Months 1–3 → Utah markets (BYU, Salt Lake, Park City)
+Phase 2 – Feedback: Months 4–6 → Collect NPS & optimize
+Phase 3 – Expansion: Months 7–12 → Partner model launch
+Phase 4 – Growth: Year 2+ → Nationwide rollout
+Future Opportunities
+1. Festa Marketplace – oven owners offer catering under Festa brand
+2. Subscription kits – monthly dough/sauce refills for partners
+3. Digital Upsell – follow-up discounts for attendees
