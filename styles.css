@@ -90,7 +90,7 @@ body {
   justify-content: space-between;
   gap: 4rem;
   margin: 0 auto;
-  padding: 1rem 5rem;
+  padding: 1rem 2rem;
   width: fit-content;
 }
 
@@ -337,7 +337,7 @@ a:hover {
 }
 
 #quarto-content {
-  padding: 2em 20em;
+  padding: 2em 8em;
 }
 
 .quarto-title-banner {
