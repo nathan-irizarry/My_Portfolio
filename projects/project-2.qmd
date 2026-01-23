@@ -32,7 +32,7 @@ Festa Catering Service brings authentic, New-York-style pizza experiences to eve
     Launch App
   </a>
 
-  <a class="btn btn-outline-dark"
+  <a class="btn btn-primary"
      href="https://github.com/nathan-irizarry/FestaCatering"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
