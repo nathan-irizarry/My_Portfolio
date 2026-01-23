@@ -1,17 +1,25 @@
 ---
-title: "FestaCatering"
-date: "2024-09-15"
-categories: [GitHub, Vercel, Claude Code]
+title: ""
+pagetitle: "FestaCatering | Nathan Irizarry"
 ---
+
+::: {.project-hero}
+
+# FestaCatering
+
+<div class="project-meta">
+  <span><i class="fas fa-calendar"></i> January 2026</span>
+  <span><i class="fas fa-tag"></i> Web Application</span>
+  <span><i class="fas fa-code"></i> React + Vercel</span>
+</div>
+
+:::
 
 ## Overview
 
-This project involved using Claude Code to write the code to needed to deveop an app that ...
+Festa Catering Service brings authentic, New-York-style pizza experiences to events using Festa's portable pizza ovens. The service allows customers to host events—such as weddings, corporate gatherings, or private parties—with on-site, fresh baked pizza in minutes.
 
-The primary purpose of this app is to:
-
-- ....
-- ....
+**Goal:** Expand Festa's brand beyond oven sales by creating a high-margin, experience-based catering service that demonstrates the ovens' quality while generating new revenue streams.
 
 ## Live Product Demo
 
@@ -20,8 +28,8 @@ The primary purpose of this app is to:
      href="https://festa-catering.vercel.app/"
      target="_blank" rel="noopener"
      aria-label="Open live app">
-    <i class="fa-solid fa-window-restore" aria-hidden="true"></i>
-    Open App in New Tab
+    <i class="fa-solid fa-external-link-alt" aria-hidden="true"></i>
+    Launch App
   </a>
 
   <a class="btn btn-outline-dark"
@@ -29,84 +37,97 @@ The primary purpose of this app is to:
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
     <i class="fa-brands fa-github" aria-hidden="true"></i>
-    View source on GitHub
+    View Source
   </a>
 </div>
 
+::: {.demo-container}
 <iframe src="https://festa-catering.vercel.app/"
-        style="width:100%; height:900px; border:none;"
+        style="width:100%; height:700px; border:none;"
         allowfullscreen>
 </iframe>
+:::
+
+## Problem Statement
+
+Event hosts struggle to find unique, high-quality, and low cost catering options that are both entertaining and delicious. Traditional catering can feel impersonal or generic, and guests rarely get to see their food being prepared.
+
+**Opportunity:** Festa's portable pizza ovens can be used as the centerpiece of an interactive food experience—fresh pizza baked on-site, customizable for each guest.
 
 ## Technical Details
 
-Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+::: {.skills-grid}
 
-Deployment: GitHub Pages + Vercel
+::: {.skill-category}
+### Stack
+- **Frontend:** React, Modern CSS
+- **Deployment:** Vercel
+- **Design:** Mobile-first responsive
+- **Tools:** Claude Code, Git
+:::
 
-Tools Used:
--   Claude Code
+::: {.skill-category}
+### Features
+- Event booking system
+- Menu customization
+- Package selection
+- Customer management
+:::
 
-## Product Requirements Document
+:::
 
-Product Requirements Document (PRD): FestaCatering
-Festa Catering
-Nathan Irizarry
+## Objectives & Success Metrics
 
-January, 2026
-Overview:
-Festa Catering Service brings authentic, New-York-style pizza experiences to events using Festa’s portable pizza ovens. The service allows customers to host events—such as weddings, corporate gatherings, or private parties—with on-site, fresh baked pizza in minutes.
+| Objective | Target |
+|-----------|--------|
+| Launch pilot in 3 cities | 6 months |
+| Customer satisfaction rating | ≥ 4.8/5 |
+| Event attendees to oven inquiries | ≥10% conversion |
+| Gross profit margin per event | ≥40% |
 
-Goal: Expand Festa’s brand beyond oven sales by creating a high-margin, experience-based catering service that demonstrates the ovens’ quality while generating new revenue streams.
-Problem Statement
-Event hosts struggle to find unique, high-quality, and low cost catering options that are both entertaining and delicious. Traditional catering can feel impersonal or generic, and guests rarely get to see their food being prepared.
+## Service Model
 
-Opportunity: Festa’s portable pizza ovens can be used as the centerpiece of an interactive food experience—fresh pizza baked on-site, customizable for each guest.
-Objectives and Success Metrics
-1. Launch pilot program in 3 cities within 6 months
-2. Achieve average customer satisfaction rating ≥ 4.8/5
-3. Convert ≥10% of event attendees into oven inquiries
-4. Maintain ≥40% gross profit margin per event
-Target Audience
-Primary: Event planners, couples, and companies hosting private events
-Secondary: Existing Festa oven owners and local food entrepreneurs
-Product Description
-Service Model:
-- Option 1: Festa-operated catering (staffed and managed by Festa teams)
-- Option 2: Partner-operated catering (franchise-style model for local partners using Festa ovens)
+**Option 1: Festa-operated catering** — staffed and managed by Festa teams
 
-Core Features:
-1. Mobile setup
-2. Interactive pizza experience
-3. Add-on packages (salads, desserts, themes)
-4. Branded Festa materials
-User Flow
-1. Customer Inquiry → Online booking form
-2. Menu Selection → Choose package
-3. Payment & Confirmation → Deposit online
-4. Event Day → Festa team setup and service
-5. Experience → Live pizza cooking
-6. Follow-Up → Thank-you email + upsell
-Technical & Operational Requirements
-Equipment: Festa ovens, propane/wood, prep tables, tents
-Staffing: 3+ team members per event
-Ordering System: Integrated booking portal
-Regulations: Food handling permits and insurance
-Risks and Assumptions
-Risks:
-- Weather constraints
-- High upfront staffing costs
-- Food regulation differences
+**Option 2: Partner-operated catering** — franchise-style model for local partners using Festa ovens
 
-Assumptions:
-- Ovens are portable and safe
-- Customers value experiential catering
-Launch Plan
-Phase 1 – Pilot: Months 1–3 → Utah markets (BYU, Salt Lake, Park City)
-Phase 2 – Feedback: Months 4–6 → Collect NPS & optimize
-Phase 3 – Expansion: Months 7–12 → Partner model launch
-Phase 4 – Growth: Year 2+ → Nationwide rollout
-Future Opportunities
-1. Festa Marketplace – oven owners offer catering under Festa brand
-2. Subscription kits – monthly dough/sauce refills for partners
-3. Digital Upsell – follow-up discounts for attendees
+### Core Features
+
+1. **Mobile setup** — fully portable pizza station
+2. **Interactive pizza experience** — guests watch their food being made
+3. **Add-on packages** — salads, desserts, themed events
+4. **Branded materials** — professional Festa presentation
+
+## User Flow
+
+1. **Customer Inquiry** → Online booking form
+2. **Menu Selection** → Choose package and customizations
+3. **Payment & Confirmation** → Deposit online
+4. **Event Day** → Festa team setup and service
+5. **Experience** → Live pizza cooking for guests
+6. **Follow-Up** → Thank-you email + upsell opportunities
+
+## Launch Plan
+
+| Phase | Timeline | Focus |
+|-------|----------|-------|
+| Pilot | Months 1–3 | Utah markets (BYU, Salt Lake, Park City) |
+| Feedback | Months 4–6 | Collect NPS & optimize operations |
+| Expansion | Months 7–12 | Partner model launch |
+| Growth | Year 2+ | Nationwide rollout |
+
+## Future Opportunities
+
+- **Festa Marketplace** — oven owners offer catering under Festa brand
+- **Subscription kits** — monthly dough/sauce refills for partners
+- **Digital Upsell** — follow-up discounts for event attendees
+
+---
+
+<div class="project-tags" style="justify-content: center; display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 2rem;">
+  <span class="project-tag">React</span>
+  <span class="project-tag">Product Strategy</span>
+  <span class="project-tag">UX Design</span>
+  <span class="project-tag">Vercel</span>
+  <span class="project-tag">Business Development</span>
+</div>

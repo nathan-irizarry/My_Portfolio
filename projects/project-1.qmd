@@ -1,17 +1,29 @@
 ---
-title: "ExperienceLink"
-date: "2024-09-15"
-categories: [GitHub, Vercel, Claude Code]
+title: ""
+pagetitle: "ExperienceLink | Nathan Irizarry"
 ---
+
+::: {.project-hero}
+
+# ExperienceLink
+
+<div class="project-meta">
+  <span><i class="fas fa-calendar"></i> October 2025</span>
+  <span><i class="fas fa-tag"></i> Product Design</span>
+  <span><i class="fas fa-code"></i> React + Firebase</span>
+</div>
+
+:::
 
 ## Overview
 
-This project involved using Claude Code to write the code to needed to deveop an app that ...
+ExperienceLink is a modern, responsive web platform that connects students with companies through short-term, real-world project opportunities. It allows students to gain career-relevant experience and build portfolios for future internships while helping companies complete small projects and discover potential talent.
 
-The primary purpose of this app is to:
+**The primary purpose of this app is to:**
 
-- ....
-- ....
+- Bridge the gap between students seeking experience and companies needing project help
+- Provide a structured platform for skills-based matching and project management
+- Enable students to build portfolios and gain real-world experience
 
 ## Live Product Demo
 
@@ -20,8 +32,8 @@ The primary purpose of this app is to:
      href="https://experience-link.vercel.app/"
      target="_blank" rel="noopener"
      aria-label="Open live app">
-    <i class="fa-solid fa-window-restore" aria-hidden="true"></i>
-    Open App in New Tab
+    <i class="fa-solid fa-external-link-alt" aria-hidden="true"></i>
+    Launch App
   </a>
 
   <a class="btn btn-outline-dark"
@@ -29,123 +41,98 @@ The primary purpose of this app is to:
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
     <i class="fa-brands fa-github" aria-hidden="true"></i>
-    View source on GitHub
+    View Source
   </a>
 </div>
 
+::: {.demo-container}
 <iframe src="https://experience-link.vercel.app/"
-        style="width:100%; height:900px; border:none;"
+        style="width:100%; height:700px; border:none;"
         allowfullscreen>
 </iframe>
+:::
 
 ## Technical Details
 
-Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+::: {.skills-grid}
 
-Deployment: GitHub Pages + Vercel
+::: {.skill-category}
+### Stack
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Firebase (Auth, Firestore)
+- **Deployment:** Vercel
+- **Tools:** Claude Code, Git
+:::
 
-Tools Used:
--   Claude Code
+::: {.skill-category}
+### Features
+- User authentication (students & companies)
+- Project browsing with filters
+- Application management
+- Profile and portfolio system
+:::
+
+:::
 
 ## Product Requirements Document
 
-Product Requirements Document (PRD): ExperienceLink
-1. Overview
+### Background / Context
 
-Product Name: ExperienceLink
-Authors: Nate Irizarry, Diego Camacho Salgado
-Date: October 2025
-Status: Draft
+**Problem:** Many students struggle to get relevant career experience because most internships require prior experience — creating a "catch-22." At the same time, companies have small, real-world tasks that could be done by skilled students but lack a simple way to connect with them.
 
-ExperienceLink is a modern, responsive web platform that connects students with companies through short-term, real-world project opportunities. It allows students to gain career-relevant experience and build portfolios for future internships while helping companies complete small projects and discover potential talent.
+**Opportunity:** ExperienceLink bridges this gap by providing a structured platform for companies to post short-term projects and for students to gain practical experience, develop skills, and enhance their resumes.
 
-2. Background / Context
+### Objectives & Success Metrics
 
-Problem:
-Many students struggle to get relevant career experience because most internships require prior experience — creating a “catch-22.” At the same time, companies have small, real-world tasks that could be done by skilled students but lack a simple way to connect with them.
+| Objective | Metric | Target |
+|-----------|--------|--------|
+| Help students gain experience | Projects completed | 100+ in first 3 months |
+| Increase student engagement | Monthly retention | 60% active accounts |
+| Attract company participation | Registered companies | 50+ in first quarter |
+| Deliver smooth UX | Page load time | <2 seconds |
 
+### User Stories
 
-Opportunity:
-ExperienceLink bridges this gap by providing a structured platform for companies to post short-term projects and for students to gain practical experience, develop skills, and enhance their resumes.
+**For Students:**
 
-3. Objectives & Success Metrics
-Objective	Metric	Target
-Help students gain experience	Number of projects completed	100+ projects in first 3 months
-Increase student engagement	Active student accounts	60% monthly retention
-Attract companies to post projects	Number of registered companies	50+ in first quarter
-Deliver smooth UX	Page load time	<2 seconds on mobile and desktop
+- As a student, I want to browse projects so I can find opportunities that match my skills
+- As a student, I want to apply to a project so I can gain experience
+- As a student, I want to upload completed work so companies can evaluate it
+- As a student, I want to build a profile showing my skills and completed projects
 
-4. User Stories / Use Cases
-•	For Students:
-•	As a student, I want to browse projects so I can find opportunities that match my skills.
-•	As a student, I want to apply to a project so I can gain experience.
-•	As a student, I want to upload completed work so companies can evaluate it.
-•	As a student, I want to build a profile showing my skills and completed projects.
-•	For Companies:
-•	As a company, I want to post new projects so students can apply.
-•	As a company, I want to review applicants and view their profiles.
-•	As a company, I want to leave feedback on student work.
-•	For Admin:
-•	As an admin, I want to verify company accounts to ensure legitimacy.
-•	As an admin, I want to manage users and approve project listings.
+**For Companies:**
 
-5. Functional Requirements
-•	Home Page
-•	Simple, modern landing page with a clear explanation of the platform.
-•	Prominent call-to-action buttons: “I’m a Student” and “I’m a Company.”
-•	Navigation bar with links: Home | Projects | Companies | About | Login.
-•	Student Dashboard
-•	Student sign-up/login with email and password.
-•	Browse a list of projects with filters (skills, duration, company).
-•	Each project card displays company name, task title, short description, required skills, and duration/reward.
-•	Clicking a card shows full details and buttons: “Apply” or “Submit Work.”
-•	Company Dashboard
-•	Company sign-up/login with email and password.
-•	Form to post new projects (fields: title, description, skills, duration, reward).
-•	View list of applicants and access their profiles.
-•	Student Profile Page
-•	Displays student info: name, university, bio, skills, completed projects, feedback.
-•	Option to upload a profile photo.
-•	Editable via profile settings.
-•	Admin/Verification Section (optional MVP+)
-•	Approve new companies before posting access.
-•	Manage reported or inactive projects.
+- As a company, I want to post new projects so students can apply
+- As a company, I want to review applicants and view their profiles
+- As a company, I want to leave feedback on student work
 
-6. Non-Functional Requirements
-Category	Requirement
-Performance	Pages should load within 2 seconds.
-Responsiveness	Must work seamlessly on desktop, tablet, and mobile.
-Accessibility	Follow WCAG 2.1 AA standards.
-Security	Use Firebase Auth for secure login and user data protection.
-Scalability	Structure backend for easy migration from Firebase to a full database (e.g., MongoDB).
+### Non-Functional Requirements
 
-7. Design / UI
-- Clean, minimal layout using Tailwind CSS.
-- Consistent color scheme (light neutral background with accent blue).
-- Modern typography (e.g., Inter or Roboto).
-- Responsive grid layout for cards and dashboards.
-- Mockup pages: Home, Student Dashboard, Company Dashboard, Profile, Login/Signup.
+| Category | Requirement |
+|----------|-------------|
+| Performance | Pages load within 2 seconds |
+| Responsiveness | Works on desktop, tablet, and mobile |
+| Accessibility | Follows WCAG 2.1 AA standards |
+| Security | Firebase Auth for secure login |
+| Scalability | Structured for easy database migration |
 
-8. Dependencies / Risks
-Dependency	Risk	Mitigation
-Firebase Authentication	Integration issues	Start with demo login and add Firebase later
-React & Tailwind setup	Compatibility or build errors	Use create-react-app template
-Company verification	Possible fake accounts	Manual admin approval or verification email
-Database structure	Data complexity	Start with Firebase, migrate later to SQL/Mongo if needed
+### Timeline / Milestones
 
-9. Timeline / Milestones
-Milestone	Target Date	Owner
-Design Wireframes	Nov 5, 2025	UX/UI
-MVP Frontend Build	Nov 20, 2025	Frontend Dev
-Backend Integration	Dec 1, 2025	Backend Dev
-Internal Testing	Dec 10, 2025	QA
-Beta Launch	Dec 20, 2025	PM / Team
-Public Demo Release	Jan 2026	All
+| Milestone | Target Date | Status |
+|-----------|-------------|--------|
+| Design Wireframes | Nov 5, 2025 | Complete |
+| MVP Frontend Build | Nov 20, 2025 | Complete |
+| Backend Integration | Dec 1, 2025 | Complete |
+| Internal Testing | Dec 10, 2025 | Complete |
+| Beta Launch | Dec 20, 2025 | Complete |
+| Public Demo Release | Jan 2026 | Live |
 
-10. Open Questions / Future Considerations
-•	Should projects include compensation (money, gift cards, or credit)?
-•	Should companies be able to message students directly on the platform?
-•	Add project reviews or ratings for quality assurance?
-•	Should the admin panel include analytics (e.g., top skills, popular projects)?
-•	Future feature: AI skill matching between students and projects.
+---
 
+<div class="project-tags" style="justify-content: center; display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 2rem;">
+  <span class="project-tag">React</span>
+  <span class="project-tag">Firebase</span>
+  <span class="project-tag">Tailwind CSS</span>
+  <span class="project-tag">Product Management</span>
+  <span class="project-tag">User Research</span>
+</div>

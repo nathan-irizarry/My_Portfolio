@@ -5,20 +5,34 @@ pagetitle: "Nathan Irizarry | Portfolio"
 
 ::: {.hero-section}
 
+::: {.hero-inner}
+
 ::: {.hero-content}
 
-<div class="hero-name">Nathan Irizarry</div>
+<div class="hero-name">
+  <span class="first-name">Nathan</span>
+  <span class="last-name">Irizarry</span>
+</div>
 
-<span class="hero-subtitle">Product Manager | AI Strategist | Full-Stack Builder</span>
+<div class="hero-roles">
+  <span class="role">Product Manager</span>
+  <span class="role">AI Strategist</span>
+  <span class="role">Full-Stack Builder</span>
+</div>
 
-I live by this personal philosophy: Go find the things in life that present a unique contribution to the world, a contribution that only you, and your abilities, can achieve. Then do them. I strive to make my portfolio of talents change that philosophy into a reality.
+<p class="hero-description">
+I live by this philosophy: Find the things in life that present a unique contribution to the world—a contribution that only you and your abilities can achieve. Then do them. I build products at the intersection of strategy, design, and code.
+</p>
 
 <div class="hero-links">
-<a href="https://linkedin.com/in/nathan-irizarry" class="btn btn-outline-primary" target="_blank">
+<a href="https://linkedin.com/in/nathan-irizarry" class="btn btn-primary" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/nathan-irizarry" class="btn btn-outline-primary" target="_blank">
+<a href="https://github.com/nathan-irizarry" class="btn btn-primary" target="_blank">
   <i class="fab fa-github"></i> GitHub
+</a>
+<a href="about.qmd" class="btn btn-primary">
+  <i class="fas fa-user"></i> About Me
 </a>
 </div>
 
@@ -30,29 +44,63 @@ I live by this personal philosophy: Go find the things in life that present a un
 
 :::
 
+<div class="scroll-indicator">
+  <span>Scroll to explore</span>
+  <i class="fas fa-chevron-down"></i>
+</div>
+
+:::
+
+<div class="section-header animate-on-scroll">
+  <span class="section-subtitle">Selected Work</span>
+  <h2 class="section-title">Projects</h2>
+</div>
+
 ::: {.project-filters}
-<button class="filter-btn active">All</button>
-<button class="filter-btn">Product Management</button>
-<button class="filter-btn">Web Development</button>
-<button class="filter-btn">Data Analytics</button>
-<button class="filter-btn">Strategy</button>
+<button class="filter-btn active" data-filter="all">All</button>
+<button class="filter-btn" data-filter="product">Product</button>
+<button class="filter-btn" data-filter="web">Web Dev</button>
+<button class="filter-btn" data-filter="data">Data</button>
+<button class="filter-btn" data-filter="strategy">Strategy</button>
 :::
 
-::: {.projects-grid}
+::: {.projects-grid .bento-grid}
 
-::: {.project-card}
-### [Name of my first app](projects/project-1.qmd)
-A one sentence description of my first application which is deployed to vercel.
+::: {.project-card .featured data-category="product web"}
+### [ExperienceLink](projects/project-1.qmd)
+
+A modern platform connecting students with companies through short-term, real-world project opportunities. Built with React and Firebase, featuring responsive design, user authentication, and project management dashboards.
+
+<div class="project-tags">
+  <span class="project-tag">React</span>
+  <span class="project-tag">Firebase</span>
+  <span class="project-tag">Product Design</span>
+  <span class="project-tag">Vercel</span>
+</div>
 :::
 
-::: {.project-card}
-### [Business Case Presentation](projects/project-2.qmd)
-Strategic business analysis and presentation showcasing data-driven decision making.
+::: {.project-card data-category="product web"}
+### [FestaCatering](projects/project-2.qmd)
+
+Catering service web application for Festa's portable pizza oven experiences. Features event booking, menu customization, and customer management.
+
+<div class="project-tags">
+  <span class="project-tag">Web App</span>
+  <span class="project-tag">UX Design</span>
+  <span class="project-tag">Vercel</span>
+</div>
 :::
 
-::: {.project-card}
-### [Project 3](projects/project-3.qmd)
-Description of project three highlighting key skills and outcomes.
+::: {.project-card data-category="strategy data"}
+### [Market Entry Strategy](projects/project-3.qmd)
+
+Comprehensive market research and go-to-market strategy analysis. Applied Porter's Five Forces, SWOT, and financial modeling to identify opportunities.
+
+<div class="project-tags">
+  <span class="project-tag">Strategy</span>
+  <span class="project-tag">Market Research</span>
+  <span class="project-tag">Analysis</span>
+</div>
 :::
 
 :::

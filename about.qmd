@@ -1,16 +1,29 @@
 ---
-title: "About Me"
+title: ""
+pagetitle: "About | Nathan Irizarry"
 ---
 
-::: {.hero-banner}
+::: {.about-hero}
 
-<img src="images/profile.jpg" alt="Nathan Irizarry" class="profile-image" width="160">
+::: {.about-hero-image}
+<img src="images/profile.jpg" alt="Nathan Irizarry">
+:::
 
-<h1>Nathan Irizarry</h1>
+::: {.about-hero-content}
+
+# Nathan Irizarry
+
+<p class="lead">
+Driven by a unique blend of strategic business thinking and technical computer science principles, I thrive at the intersection of <strong>human-centric design</strong> and <strong>data-backed decision-making</strong>.
+</p>
+
+<p class="lead">
+My passion for product management stems from a desire to solve complex user problems by bridging the gap between high-level strategy and technical execution. Whether optimizing direct-to-consumer funnels or building responsive web interfaces, I create products that deliver measurable value and seamless user experiences.
+</p>
 
 <div class="hero-links">
-<a href="https://linkedin.com/in/nathan-irizarry" class="btn btn-outline-primary" target="_blank">
-  <i class="fab fa-linkedin"></i> LinkedIn
+<a href="https://linkedin.com/in/nathan-irizarry" class="btn btn-primary" target="_blank">
+  <i class="fab fa-linkedin"></i> Connect
 </a>
 <a href="https://github.com/nathan-irizarry" class="btn btn-outline-primary" target="_blank">
   <i class="fab fa-github"></i> GitHub
@@ -19,29 +32,21 @@ title: "About Me"
 
 :::
 
-## Background
-
-Driven by a unique blend of strategic business thinking and technical computer science principles, I thrive at the intersection of *human-centric design* and *data-backed decision-making*. My passion for product management stems from a desire to solve complex user problems by bridging the gap between high-level strategy and technical execution. Whether I am optimizing direct-to-consumer funnels or building responsive web interfaces, I am committed to creating products that deliver measurable value and seamless user experiences.
-
----
+:::
 
 ## Education
 
-::: {.education-card}
+::: {.education-card .animate-on-scroll}
 
-**BS in Strategic Management**
+### BS in Strategic Management
+
+<span class="timeline-year">Brigham Young University - Marriott School of Business | Jan 2024 - Present</span>
+
 *Emphasis in AI Product Management, Minor in Computer Science*
 
-Brigham Young University - Marriott School of Business | Jan 2024 - Present
+**Relevant Coursework:** Product Management (PRD, MVP, Agile), Database Design, AI Tools, Web Development
 
-**Relevant Coursework:**
-
-- Product Management (PRD, MVP, Agile)
-- Database Design
-- AI Tools
-- Web Development
-
-**Academic Achievements:**
+**Achievements:**
 
 - BYU Marriott School Dean's List (Winter 2025)
 - Overall GPA: **3.8/4.0**
@@ -49,68 +54,85 @@ Brigham Young University - Marriott School of Business | Jan 2024 - Present
 
 :::
 
----
-
 ## Experience
 
-::: {.experience-card}
+<div class="timeline">
 
-### Associate Product Manager
+<div class="timeline-item animate-on-scroll">
+<span class="timeline-year">Jan 2026 - Present</span>
+<div class="timeline-content">
+<h3>Associate Product Manager</h3>
+<span class="company">LeaderFactor</span>
+<ul>
+<li>Led moderated customer research and synthesized insights into actionable recommendations to improve course flows and product dashboards</li>
+<li>Optimized direct-to-consumer funnels through rapid A/B experiments, focusing on landing pages, messaging, and pricing strategies</li>
+<li>Utilized usage and survey data to validate a 15-skill model and drive improvements in user retention</li>
+</ul>
+</div>
+</div>
 
-**LeaderFactor** | *Jan 2026 - Present*
+<div class="timeline-item animate-on-scroll">
+<span class="timeline-year">Jul 2025 - Oct 2025</span>
+<div class="timeline-content">
+<h3>Product Support Specialist</h3>
+<span class="company">Squeeze</span>
+<ul>
+<li>Communicated product value to diverse customer segments, resulting in a <strong>15% increase</strong> in conversion rates</li>
+<li>Collaborated with cross-functional teams to refine call scripts and improve lead-to-appointment conversion metrics</li>
+<li>Consistently exceeded daily KPIs for call volume and customer satisfaction scores in a fast-paced environment</li>
+</ul>
+</div>
+</div>
 
-- Led moderated customer research and synthesized insights into actionable recommendations to improve course flows and product dashboards
-- Optimized direct-to-consumer funnels through rapid A/B experiments, focusing on landing pages, messaging, and pricing strategies
-- Utilized usage and survey data to validate a 15-skill model and drive improvements in user retention
+</div>
 
-:::
+## Skills
 
-::: {.experience-card}
+<div class="section-header animate-on-scroll">
+  <span class="section-subtitle">What I Work With</span>
+</div>
 
-### Product Support Specialist
-
-**Squeeze** | *Jul 2025 - Oct 2025*
-
-- Communicated product value to diverse customer segments, resulting in a **15% increase** in conversion rates
-- Collaborated with cross-functional teams to refine call scripts and improve lead-to-appointment conversion metrics
-- Consistently exceeded daily KPIs for call volume and customer satisfaction scores in a fast-paced environment
-
-:::
-
----
-
-## Skills & Interests
+<div class="skills-cloud">
+<span class="skill-tag highlight">Python</span>
+<span class="skill-tag">R</span>
+<span class="skill-tag highlight">SQL</span>
+<span class="skill-tag">HTML/CSS</span>
+<span class="skill-tag highlight">React</span>
+<span class="skill-tag">JavaScript</span>
+<span class="skill-tag">VBA</span>
+<span class="skill-tag highlight">Tableau</span>
+<span class="skill-tag">Excel Solver</span>
+<span class="skill-tag">Claude Code</span>
+<span class="skill-tag highlight">PRD Development</span>
+<span class="skill-tag">MVP Testing</span>
+<span class="skill-tag highlight">Agile</span>
+<span class="skill-tag">User Research</span>
+<span class="skill-tag">A/B Testing</span>
+<span class="skill-tag highlight">Firebase</span>
+<span class="skill-tag">Vercel</span>
+<span class="skill-tag">Git</span>
+<span class="skill-tag">Figma</span>
+<span class="skill-tag highlight">Strategic Planning</span>
+</div>
 
 ::: {.skills-grid}
 
-::: {.skill-category}
+::: {.skill-category .animate-on-scroll}
 
 ### Technical Skills
 
 **Programming Languages:**
-
-- Python, R, SQL
-- HTML/CSS
-- React, JavaScript
-- VBA
+Python, R, SQL, HTML/CSS, React, JavaScript, VBA
 
 **Analytics & Tools:**
-
-- Tableau
-- Excel Solver
-- Gemini CLI
-- Database Design
+Tableau, Excel Solver, Claude Code, Database Design
 
 **Product Frameworks:**
-
-- PRD Development
-- MVP Testing
-- Agile Methodologies
-- User Feedback Loops
+PRD Development, MVP Testing, Agile Methodologies, User Feedback Loops
 
 :::
 
-::: {.skill-category}
+::: {.skill-category .animate-on-scroll}
 
 ### Soft Skills
 
@@ -127,20 +149,29 @@ Experienced in facilitating leadership councils and managing cross-functional pr
 
 :::
 
-::: {.interests-section}
+::: {.interests-section .animate-on-scroll}
 
-### Interests
+### Beyond Work
 
 When I'm not analyzing product data, I enjoy playing acoustic guitar, specifically soft rock and acoustic pop. I also have a keen interest in analyzing the effectiveness of Superbowl advertisements and have been an avid pick-up volleyball player for over **12 years**.
 
 :::
 
----
+::: {.cta-section .animate-on-scroll}
 
-## What's Next
+## Let's Build Something Together
 
-My career goal is to transition my background in Strategy and Product Management into a full-time role. I am seeking opportunities where I can lead the intersection of **emerging technology** and **user-centric design**, leveraging my experience in A/B testing, customer research, and full-stack development to drive product growth.
+I'm seeking opportunities where I can lead the intersection of **emerging technology** and **user-centric design**, leveraging my experience in A/B testing, customer research, and full-stack development to drive product growth.
 
-With a minor in Computer Science and proficiency in tools like Python, SQL, and React, I aim to bridge the gap between technical engineering teams and business stakeholders to scale user acquisition and retention.
+<div class="hero-links" style="justify-content: center;">
+<a href="https://linkedin.com/in/nathan-irizarry" class="btn btn-primary" target="_blank">
+  <i class="fab fa-linkedin"></i> Get in Touch
+</a>
+<a href="index.qmd" class="btn btn-outline-primary">
+  <i class="fas fa-folder-open"></i> View Projects
+</a>
+</div>
+
+:::
 
 > *I am particularly interested in joining a forward-thinking, Agile-driven team where I can apply my skills in AI-driven design and data-backed decision-making to build intelligent products that solve meaningful global problems.*
