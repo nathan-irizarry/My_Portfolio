@@ -25,7 +25,7 @@ My passion for product management stems from a desire to solve complex user prob
 <a href="https://linkedin.com/in/nathan-irizarry" class="btn btn-primary" target="_blank">
   <i class="fab fa-linkedin"></i> Connect
 </a>
-<a href="https://github.com/nathan-irizarry" class="btn btn-outline-primary" target="_blank">
+<a href="https://github.com/nathan-irizarry" class="btn btn-primary" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
 </div>
@@ -92,43 +92,54 @@ My passion for product management stems from a desire to solve complex user prob
   <span class="section-subtitle">What I Work With</span>
 </div>
 
-<div class="skills-cloud">
-<span class="skill-tag highlight">Python</span>
-<span class="skill-tag">R</span>
-<span class="skill-tag highlight">SQL</span>
-<span class="skill-tag">HTML/CSS</span>
-<span class="skill-tag highlight">React</span>
-<span class="skill-tag">JavaScript</span>
-<span class="skill-tag">VBA</span>
-<span class="skill-tag highlight">Tableau</span>
-<span class="skill-tag">Excel Solver</span>
-<span class="skill-tag">Claude Code</span>
-<span class="skill-tag highlight">PRD Development</span>
-<span class="skill-tag">MVP Testing</span>
-<span class="skill-tag highlight">Agile</span>
-<span class="skill-tag">User Research</span>
-<span class="skill-tag">A/B Testing</span>
-<span class="skill-tag highlight">Firebase</span>
-<span class="skill-tag">Vercel</span>
-<span class="skill-tag">Git</span>
-<span class="skill-tag">Figma</span>
-<span class="skill-tag highlight">Strategic Planning</span>
-</div>
-
 ::: {.skills-grid}
 
 ::: {.skill-category .animate-on-scroll}
 
 ### Technical Skills
 
-**Programming Languages:**
-Python, R, SQL, HTML/CSS, React, JavaScript, VBA
+<div class="skill-row">
+<strong>Programming:</strong>
+<div class="skill-pills">
+<span class="skill-pill">Python</span>
+<span class="skill-pill">R</span>
+<span class="skill-pill">SQL</span>
+<span class="skill-pill">HTML/CSS</span>
+<span class="skill-pill">React</span>
+<span class="skill-pill">JavaScript</span>
+<span class="skill-pill">VBA</span>
+</div>
+</div>
 
-**Analytics & Tools:**
-Tableau, Excel Solver, Claude Code, Database Design
+<div class="skill-row">
+<strong>Analytics & Tools:</strong>
+<div class="skill-pills">
+<span class="skill-pill">Tableau</span>
+<span class="skill-pill">Excel Solver</span>
+<span class="skill-pill">Claude Code</span>
+<span class="skill-pill">Figma</span>
+</div>
+</div>
 
-**Product Frameworks:**
-PRD Development, MVP Testing, Agile Methodologies, User Feedback Loops
+<div class="skill-row">
+<strong>Product Frameworks:</strong>
+<div class="skill-pills">
+<span class="skill-pill">PRD Development</span>
+<span class="skill-pill">MVP Testing</span>
+<span class="skill-pill">Agile</span>
+<span class="skill-pill">User Research</span>
+<span class="skill-pill">A/B Testing</span>
+</div>
+</div>
+
+<div class="skill-row">
+<strong>Development Tools:</strong>
+<div class="skill-pills">
+<span class="skill-pill">Firebase</span>
+<span class="skill-pill">Vercel</span>
+<span class="skill-pill">Git</span>
+</div>
+</div>
 
 :::
 
@@ -167,7 +178,7 @@ I'm seeking opportunities where I can lead the intersection of **emerging techno
 <a href="https://linkedin.com/in/nathan-irizarry" class="btn btn-primary" target="_blank">
   <i class="fab fa-linkedin"></i> Get in Touch
 </a>
-<a href="index.qmd" class="btn btn-outline-primary">
+<a href="index.qmd" class="btn btn-primary">
   <i class="fas fa-folder-open"></i> View Projects
 </a>
 </div>

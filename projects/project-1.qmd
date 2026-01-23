@@ -36,7 +36,7 @@ ExperienceLink is a modern, responsive web platform that connects students with 
     Launch App
   </a>
 
-  <a class="btn btn-outline-dark"
+  <a class="btn btn-primary"
      href="https://github.com/nathan-irizarry/ExperienceLink"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">

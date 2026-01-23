@@ -65,7 +65,7 @@ format:
               if (stored) {
                 setTheme(stored);
               } else {
-                setTheme('dark');
+                setTheme('light');
               }
             }
 
@@ -78,15 +78,15 @@ format:
               if (navbar) {
                 const toggleLi = document.createElement('li');
                 toggleLi.className = 'nav-item';
-                toggleLi.innerHTML = '<button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"><i class="fas fa-sun"></i></button>';
+                toggleLi.innerHTML = '<button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>';
                 navbar.appendChild(toggleLi);
 
-                const currentTheme = getStoredTheme() || 'dark';
+                const currentTheme = getStoredTheme() || 'light';
                 updateToggleButton(currentTheme);
 
                 document.getElementById('theme-toggle').addEventListener('click', function() {
-                  const current = document.documentElement.getAttribute('data-theme') || 'dark';
-                  setTheme(current === 'dark' ? 'light' : 'dark');
+                  const current = document.documentElement.getAttribute('data-theme') || 'light';
+                  setTheme(current === 'light' ? 'dark' : 'light');
                 });
               }
 
