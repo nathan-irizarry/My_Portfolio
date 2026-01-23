@@ -472,35 +472,6 @@ a:hover {
   box-shadow: var(--shadow-glow);
 }
 
-.btn-outline-primary {
-  background: transparent;
-  color: var(--color-text-primary);
-  border-color: var(--color-border);
-}
-
-.btn-outline-primary:hover,
-.btn-outline-primary:active,
-.btn-outline-primary:focus {
-  border-color: var(--color-accent-primary);
-  color: var(--color-accent-primary);
-  transform: translateY(-3px);
-}
-
-.btn-outline-dark {
-  background: transparent;
-  color: var(--color-text-primary);
-  border-color: var(--color-border);
-}
-
-.btn-outline-dark:hover,
-.btn-outline-dark:active,
-.btn-outline-dark:focus {
-  background: var(--color-text-primary);
-  color: var(--color-bg-primary);
-  border-color: var(--color-accent-primary);
-  transform: translateY(-3px);
-}
-
 /* ===== Section Styling ===== */
 .section {
   padding: var(--space-3xl) var(--space-lg);
@@ -1271,6 +1242,62 @@ main h3 {
   font-family: var(--font-mono);
   font-size: 0.8rem;
   color: var(--color-text-secondary);
+}
+
+/* ===== Quarto Search Overrides ===== */
+.aa-Form {
+  border-color: var(--color-accent-primary) !important;
+}
+
+.aa-Form:focus-within {
+  border-color: var(--color-accent-primary) !important;
+  box-shadow: 0 0 0 3px rgba(210, 180, 140, 0.3) !important;
+}
+
+.aa-Input:focus {
+  outline: none !important;
+}
+
+.aa-DetachedCancelButton {
+  color: var(--color-accent-primary) !important;
+}
+
+.aa-DetachedCancelButton:hover,
+.aa-DetachedCancelButton:focus {
+  background-color: var(--color-accent-primary) !important;
+  color: var(--color-bg-primary) !important;
+  outline: none !important;
+  border-color: var(--color-accent-primary) !important;
+  box-shadow: 0 0 0 3px rgba(210, 180, 140, 0.3) !important;
+}
+
+/* Search results styling */
+.aa-Item[aria-selected="true"] {
+  background-color: var(--color-accent-primary) !important;
+}
+
+.aa-Item:hover {
+  background-color: var(--color-accent-primary) !important;
+}
+
+.aa-ItemLink:hover,
+.aa-ItemLink:focus {
+  background-color: var(--color-accent-primary) !important;
+}
+
+/* "X more matches" link */
+.aa-ItemContent mark,
+.search-result-text mark {
+  background-color: rgba(210, 180, 140, 0.3) !important;
+  color: inherit !important;
+}
+
+.quarto-search-results .search-more-matches {
+  color: var(--color-accent-primary) !important;
+}
+
+.aa-Source .aa-Item a {
+  color: inherit !important;
 }
 
 /* ===== Quarto Overrides ===== */
