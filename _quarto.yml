@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Nathan Irizarry | Product Portfolio"
-  favicon: images/prototyping-favicon.png
+  favicon: images/Favicon.png
   navbar:
     background: dark
     right:

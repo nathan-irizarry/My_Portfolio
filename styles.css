@@ -118,7 +118,7 @@ h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
 h3 { font-size: clamp(1.25rem, 3vw, 1.75rem); }
 
 p {
-  margin: 0 0 var(--space-md) 0;
+  margin: 0 0 0 0;
   color: var(--color-text-secondary);
 }
 
@@ -179,7 +179,7 @@ a:hover {
 }
 
 .navbar .navbar-nav .nav-link:hover::after {
-  width: 80%;
+  width: 50%;
 }
 
 /* Navbar Dropdown */
@@ -203,6 +203,10 @@ a:hover {
 .navbar .dropdown-item:hover {
   background: var(--color-accent-primary);
   color: var(--color-bg-primary);
+}
+
+.dropdown-toggle::after {
+  margin-left: 0;
 }
 
 /* Theme Toggle Button */
@@ -365,6 +369,8 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .hero-image::before {
@@ -680,9 +686,11 @@ a:hover {
 
 .about-hero-image {
   position: relative;
+  width: fit-content;
 }
 
 .about-hero-image img {
+  display: block;
   width: 100%;
   max-width: 500px;
   border-radius: var(--radius-xl);
@@ -1369,8 +1377,13 @@ body .page-columns {
     font-size: 15px;
   }
 
+  .hero-section {
+    padding: var(--space-xl) var(--space-xl);
+  }
+
   .hero-inner {
     gap: var(--space-2xl);
+    max-width: 1100px;
   }
 }
 
@@ -1422,8 +1435,7 @@ body .page-columns {
 
   .about-hero-image {
     order: -1;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
   }
 
   .about-hero-image img {
@@ -1485,6 +1497,7 @@ body .page-columns {
   .hero-links .btn {
     width: 100%;
     justify-content: center;
+    margin-bottom: 1em;
   }
 
   .hero-roles {
@@ -1528,8 +1541,7 @@ body .page-columns {
 
   .about-hero-image {
     order: -1;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
   }
 
   .about-hero-image img {
