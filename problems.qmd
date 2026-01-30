@@ -1,0 +1,146 @@
+---
+title: ""
+pagetitle: "Problems I'm Exploring | Nathan Irizarry"
+---
+
+::: {.problems-hero .animate-on-scroll}
+
+<span class="section-subtitle">What Keeps Me Curious</span>
+
+# Problems I'm Exploring
+
+<p class="problems-intro">
+These are the problems I think about most. The ones that sit at the intersection of technology, human potential, and systems design. Each one represents a space where I believe meaningful progress is not only possible but essential.
+</p>
+
+:::
+
+<div class="problems-grid">
+
+<div class="problem-card animate-on-scroll" id="problem-1">
+<div class="problem-number">01</div>
+<h2>Information Integrity & Digital Noise</h2>
+
+<div class="problem-section">
+<h3>The Problem</h3>
+<p>In an age of exponential data growth, the primary challenge is the fragmentation of information and the increasing prevalence of misinformation. As the volume of content outpaces our collective ability to verify it, maintaining a reliable, "single source of truth" in the digital ecosystem becomes increasingly difficult.</p>
+</div>
+
+<div class="problem-section">
+<h3>Why It Matters to Me</h3>
+<p>As an AI-focused product builder, my work is directly tied to the quality of the information systems I design around. "Noise" in the digital landscape (be it hallucinations, outdated data, or intentional bias) acts like static on a radio. I want to build products that deliver razor-sharp, accurate insights, and that is only achievable when the global data pool is clean and well-verified.</p>
+</div>
+
+<div class="problem-section">
+<h3>Why It's Worth Solving</h3>
+<p>This isn't just about "fact-checking"; it's about <strong>cognitive sovereignty</strong>. By solving for information integrity, we empower individuals to make decisions based on reality rather than rhetoric. It's the difference between a society that reacts to rumors and one that builds on verified knowledge.</p>
+</div>
+</div>
+
+<div class="problem-card animate-on-scroll" id="problem-2">
+<div class="problem-number">02</div>
+<h2>The Universal Accessibility Gap</h2>
+
+<div class="problem-section">
+<h3>The Problem</h3>
+<p>Despite rapid technological advancement, a significant portion of the global population remains excluded from digital progress due to physical, cognitive, or socioeconomic barriers. This "Digital Divide" prevents equitable access to essential services like healthcare, education, and economic participation.</p>
+</div>
+
+<div class="problem-section">
+<h3>Why It Matters to Me</h3>
+<p>My core purpose as a product builder is to create tools that serve as universal collaborators. If someone cannot interact with a product because of a poorly designed interface or a lack of assistive technology, that product is effectively sidelined. Technology is at its best when it's accessible to everyone, regardless of their physical abilities or the device they are using.</p>
+</div>
+
+<div class="problem-section">
+<h3>Why It's Worth Solving</h3>
+<p>Accessibility is an <strong>innovation catalyst</strong>. When we design for the most constrained environments or the most diverse needs, we often create "curb-cut" effects, innovations that make technology more intuitive and efficient for the entire population.</p>
+</div>
+</div>
+
+<div class="problem-card animate-on-scroll" id="problem-3">
+<div class="problem-number">03</div>
+<h2>The Scalability of Personalized Education</h2>
+
+<div class="problem-section">
+<h3>The Problem</h3>
+<p>Traditional educational frameworks often rely on a "one-size-fits-all" broadcast model. This fails to account for individual learning velocities, cultural contexts, and prior knowledge, leading to systemic inefficiency and "lost potential" in the global workforce.</p>
+</div>
+
+<div class="problem-section">
+<h3>Why It Matters to Me</h3>
+<p>I interact with people daily who each have a unique way of processing information. I see firsthand how a concept that clicks for one person in two sentences might take another person a detailed analogy to understand. I want to help bridge that gap by building products that act as perfectly adaptive tutors for every user.</p>
+</div>
+
+<div class="problem-section">
+<h3>Why It's Worth Solving</h3>
+<p>Moving from "standardized" to "personalized" education is the key to <strong>unlocking human potential</strong>. Solving this allows us to transition from a world of passive learners to a world of active problem-solvers, capable of continuous upskilling in a rapidly changing economy.</p>
+</div>
+</div>
+
+<div class="problem-card animate-on-scroll" id="problem-4">
+<div class="problem-number">04</div>
+<h2>Human-AI Collaborative Synergy</h2>
+
+<div class="problem-section">
+<h3>The Problem</h3>
+<p>As AI becomes more integrated into professional workflows, there is a critical need to define transparent, ethical, and collaborative frameworks. The challenge lies in moving away from AI as a "replacement" and toward AI as a "force multiplier" for human intuition and creativity.</p>
+</div>
+
+<div class="problem-section">
+<h3>Why It Matters to Me</h3>
+<p>I don't want AI to be a "black box" that people use with hesitation. I want it to be a trusted partner. The current friction, the fear of job loss or the lack of trust in AI outputs, stifles the amazing things we could build together. AI is most effective when people know exactly how to use it to enhance their own unique skills.</p>
+</div>
+
+<div class="problem-section">
+<h3>Why It's Worth Solving</h3>
+<p>Solving the "collaboration gap" transforms AI from a tool of automation into a tool of <strong>augmentation</strong>. When we get the human-AI partnership right, we can tackle "wicked problems" (like climate modeling or drug discovery) that are too complex for either humans or machines to solve in isolation.</p>
+</div>
+</div>
+
+<div class="problem-card animate-on-scroll" id="problem-5">
+<div class="problem-number">05</div>
+<h2>The "Catch-22" of Entry-Level Employment</h2>
+
+<div class="problem-section">
+<h3>The Problem</h3>
+<p>The current entry-level job market is defined by a systemic paradox: most internships and "starter" roles now require prior professional experience to qualify. This experience gap creates a barrier for students who possess the technical skills but lack a formal portfolio, while simultaneously leaving companies with unaddressed short-term tasks that do not justify a full internship cycle.</p>
+</div>
+
+<div class="problem-section">
+<h3>Why It Matters to Me</h3>
+<p>I see the friction that occurs when talent and opportunity are misaligned. It is disheartening to see a high-potential student with the right skills unable to contribute simply because they haven't had a "first chance" yet. Seeing skilled individuals sidelined by a circular logic of "need experience to get experience" is a massive waste of human capital that I am eager to help solve.</p>
+</div>
+
+<div class="problem-section">
+<h3>Why It's Worth Solving</h3>
+<p>Solving the experience gap isn't just about helping students build resumes; it's about <strong>democratizing professional access</strong>. By breaking down traditional barriers to entry, we create a more fluid talent pipeline where merit and demonstrated skill take precedence over pedigree or prior connections.</p>
+
+<div class="problem-stakeholders">
+<div class="stakeholder">
+<strong>For Students:</strong> A low-stakes environment to test skills and build a verified professional identity.
+</div>
+<div class="stakeholder">
+<strong>For Companies:</strong> A scalable way to discover "hidden gem" talent through actual work performance rather than just a CV.
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+::: {.cta-section .animate-on-scroll}
+
+## Interested in These Problems Too?
+
+I'm always looking to connect with people who are passionate about solving meaningful challenges at the intersection of technology and human potential.
+
+<div class="hero-links" style="justify-content: center;">
+<a href="https://linkedin.com/in/nathan-irizarry" class="btn btn-primary" target="_blank">
+  <i class="fab fa-linkedin"></i> Let's Connect
+</a>
+<a href="index.qmd" class="btn btn-primary">
+  <i class="fas fa-folder-open"></i> View My Projects
+</a>
+</div>
+
+:::

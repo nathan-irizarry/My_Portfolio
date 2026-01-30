@@ -1621,6 +1621,147 @@ body .page-columns {
   }
 }
 
+/* ===== Problems Page ===== */
+.problems-hero {
+  text-align: center;
+  padding: var(--space-3xl) var(--space-lg) var(--space-xl);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.problems-hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  margin-bottom: var(--space-lg);
+}
+
+.problems-intro {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.problems-grid {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg) var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.problem-card {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-base);
+}
+
+.problem-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-accent-primary), var(--color-accent-secondary));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-base);
+}
+
+.problem-card:hover {
+  background: var(--color-card-hover);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.problem-card:hover::before {
+  transform: scaleX(1);
+}
+
+.problem-number {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-accent-primary);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: var(--space-sm);
+}
+
+.problem-card h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-top: 0;
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-md);
+  border-bottom: 2px solid var(--color-accent-primary);
+}
+
+.problem-section {
+  margin-bottom: var(--space-lg);
+}
+
+.problem-section:last-child {
+  margin-bottom: 0;
+}
+
+.problem-section h3 {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--color-accent-primary);
+  margin-top: 0;
+  margin-bottom: var(--space-sm);
+}
+
+.problem-section p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+}
+
+.problem-stakeholders {
+  margin-top: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.stakeholder {
+  background: var(--color-bg-tertiary);
+  border-left: 3px solid var(--color-accent-primary);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
+
+.stakeholder strong {
+  color: var(--color-text-primary);
+}
+
+@media (max-width: 767px) {
+  .problems-hero {
+    padding: var(--space-xl) var(--space-md) var(--space-lg);
+  }
+
+  .problems-grid {
+    padding: 0 var(--space-md) var(--space-xl);
+    gap: var(--space-lg);
+  }
+
+  .problem-card {
+    padding: var(--space-lg);
+  }
+}
+
 /* ===== Print Styles ===== */
 @media print {
   body::before {
