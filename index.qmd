@@ -52,7 +52,6 @@ I live by this philosophy: Find the things in life that present a unique contrib
 :::
 
 <div class="section-header animate-on-scroll">
-  <span class="section-subtitle">Selected Work</span>
   <h2 class="section-title">Projects</h2>
 </div>
 
